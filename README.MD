@@ -19,6 +19,6 @@
 
 Docker will build and run the application, there is no need to pre-build jar file
 
-* Navigate to root directory of project (where the dockerfile is)
-* run docker build -t MessagingService .
-* docker run -p 8080:8080 MessagingService
+* Navigate to root directory of project and run below commands (where the dockerfile is)
+* docker build -t messagingservice .
+* docker run -p 8080:8080 messagingservice
