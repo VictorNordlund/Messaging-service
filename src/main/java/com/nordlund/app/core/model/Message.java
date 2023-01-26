@@ -6,13 +6,13 @@ import org.jetbrains.annotations.Nullable;
 public class Message {
 
     @Nullable
-    private Long id;
+    private final Long id;
 
     @NotNull
-    private String messageContent;
+    private final String messageContent;
 
     @NotNull
-    private String userId;
+    private final String userId;
 
     public Message(@Nullable final Long id, @NotNull final String messageContent, @NotNull final String userId) {
         this.id = id;
