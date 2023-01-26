@@ -9,7 +9,7 @@
 
 ## Build & Run - localhost:8080
 
-#### You will need either Docker or Java 17 and Maven installed. All below run tests
+#### You will need either Docker or Java 17 and Maven installed. Both options below run unit tests
 
 ### If using maven
 
